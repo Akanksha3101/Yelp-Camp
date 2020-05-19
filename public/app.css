@@ -1,0 +1,125 @@
+.thumbnail img{
+    
+    
+    height: 300px;
+    width: 300px;
+}
+
+img{
+    width: 100%;
+    height:auto;
+    
+}
+
+.container.show{
+    
+    margin-top: 80px;
+}
+
+p:first-child {
+
+    margin-top: 140px;    
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#taketotop{
+    
+    margin-top: 0;
+}
+
+#showimage{
+    
+    margin-top: 0;
+    text-align: center;
+    padding: 1em 1em;
+    border: 1px solid #d1d1d1;
+}
+
+.img-responsive{
+    
+    width: 600px;
+    height: 400px;
+}
+
+.page-header{
+    margin-top: 4rem;
+    color: #83868c;
+    font-size: 4rem;
+}
+
+div.container.login{
+    
+    margin-top: 7rem;
+    width: 40em;
+    text-align: center;
+}
+
+div.well.login{
+    
+    padding-bottom: 5em;
+}
+
+button.btn-success.login{
+     float: left;
+     margin-top: 1em
+}
+
+label{
+    float: left;
+}
+
+
+.jumbotron{
+    
+    margin-top:5%;
+}
+
+div.row.camp{
+    
+     display:flex;
+     flex-wrap:wrap;
+     text-align:center;
+}
+
+div.container.forms{
+     margin-top: 10%;
+}
+
+h1.firsth1{
+    text-align: center;
+}
+
+.divstyling{
+     width: 30%;
+     margin: 0 auto;
+}
+
+input.form-control.campimg{
+     margin-top:5%;
+}
+
+input.btn.subcamp{
+     margin-top:6%;
+     margin-bottom:6%;
+}
+
+div.alert{
+    margin-top: 4em;
+}
+
+form.formInline{
+    display: inline;
+}
+
+.image-container img {
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto auto;
+}

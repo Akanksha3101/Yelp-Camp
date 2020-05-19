@@ -1,0 +1,17 @@
+<% include ../partials/header %>
+    <div class = "container forms">    
+        <div class = "row">
+    
+            <h1 class="firsth1">Add New Comment to <%= campground.name %></h1>
+            <div class = "divstyling">
+                <form action ="/campgrounds/<%= campground._id %>/comments/" method = "POST">
+                    <input type = "text" class = "form-control campimg" placeholder = "Enter comment" name = "comment[text]">
+                    <input type = "submit" class = "btn btn-primary subcamp" name = "submit">
+
+                </form>
+                <a href = "/campgrounds">Go Back!</a>
+            </div>
+        </div>
+    </div>
+
+<% include ../partials/footer %>

@@ -1,0 +1,23 @@
+<% include ./partials/header %>
+
+<div class = "container login">
+    <div class = "well login">
+        <div class = "page-header">
+            <h1>Register</h1>
+        </div>
+        <div class = "form-group">
+            <form action = "/register" method = "POST">
+            
+                <label>Username</label>
+                <input class = "form-control login" type = "text" placeholder = "Enter Username" name = "username">
+                <label>Password</label>
+                <input class = "form-control login" type = "password" placeholder = "Enter Password" name = "password">
+                <button class = "btn btn-success login">Sign Up</button>
+                
+                
+            </form>
+        </div>
+    </div>
+</div>
+
+<% include ./partials/footer %>

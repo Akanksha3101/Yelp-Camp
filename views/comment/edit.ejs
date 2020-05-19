@@ -1,0 +1,18 @@
+<% include ../partials/header %>
+    <div class = "container forms" >    
+        <div class = "row">
+    
+            <h1 class="firsth1">Edit Comment</h1>
+            <div class = "divstyling">
+                <form action ="/campgrounds/<%= campground._id %>/comments/<%= comment._id %>?_method=PUT" method = "POST">
+                    
+                    <input  class = "form-control" type = "text" placeholder = "Edit Comment" name="comment[text]" value = "<%= comment.text %>">
+                    <input type = "submit" class = "btn btn-primary subcamp" name = "submit">
+                    
+                </form>
+                <a href = "/campgrounds/<% campground._id %>">Go Back!</a>
+            </div>
+        </div>
+    </div>
+
+<% include ../partials/footer %>
